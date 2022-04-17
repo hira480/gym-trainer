@@ -1,5 +1,19 @@
 .service {
-    border: 1px solid lightgray;
-    padding-bottom: 10px;
+    /* border: 1px solid lightgray; */
+    padding-bottom: 20px;
     text-align: center;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.service img {
+    border-radius: 30px 30px 0 0;
+}
+
+.custom-btn {
+    color: white;
+    font-weight: 500;
+    background-color: #e268e0;
+    border-radius: 20px;
+    padding: 10 20px;
 }
