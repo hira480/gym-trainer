@@ -14,7 +14,7 @@ const Servises = () => {
 
     return (
         <div className='pb-5' style={{ backgroundColor: '#332467', }}>
-            <div className='container'>
+            <div id='services' className='container'>
                 <div className='row'>
                     <h1 className='services-titel mt-5'>My Services</h1>
                     <div className='services-container mt-3'>

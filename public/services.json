@@ -1,42 +1,42 @@
 [
     {
         "id": 1,
-        "name": "ENGINE DIAGNOSTIC",
+        "name": "STANDING BARBELL",
         "price": "300",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
         "img": "https://i.ibb.co/42whpKW/couple-standing.jpg"
     },
     {
         "id": 2,
-        "name": "WHEEL ALIGNMENT",
+        "name": "BARBELL OVERHEAD PRESS",
         "price": "100",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
         "img": "https://i.ibb.co/kKQy9ts/single-2.png"
     },
     {
         "id": 3,
-        "name": "OIL CHANGING",
+        "name": "SHOULDER WORKOUT",
         "price": "150",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
         "img": "https://i.ibb.co/whdy5d0/couple-trn-2.png"
     },
     {
         "id": 4,
-        "name": "BRAKE REPARING",
+        "name": "STICK TO THE BASIC",
         "price": "180",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
         "img": "https://i.ibb.co/b3cGpMz/couple-training-together-gym.png"
     },
     {
         "id": 5,
-        "name": "WASH AND GLASSING",
+        "name": "INTERMEDIATE WORKOUT",
         "price": "100",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
         "img": "https://i.ibb.co/rp28Shj/gym-girl.jpg"
     },
     {
         "id": 6,
-        "name": "COMPLETE ANALYSIS",
+        "name": "PERSONAL TRAINING",
         "price": "300",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
         "img": "https://i.ibb.co/C7B1NMp/alone.png"

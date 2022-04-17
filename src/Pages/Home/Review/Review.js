@@ -7,7 +7,7 @@ const Review = ({ review }) => {
         <div className="col-sm-12 col-md-3">
             <div className='card mt-4 review'>
                 <img className='mx-auto' height={100} src={img} alt="" />
-                <h5>{name}</h5>
+                <h5 className='mt-3'>{name}</h5>
                 <p>{body}</p>
                 <h6>Rating: {rating}</h6>
             </div>
