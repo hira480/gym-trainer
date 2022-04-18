@@ -14,7 +14,7 @@ const Blogs = () => {
                 </div>
                 <div className='blog mt-4 bg-light'>
                     <h4 className='mb-3'>Why are you using firebase? What other options do you have to implement authentication?</h4>
-                    <p>Firebase authentication system is trusted and most popular authentication system. We can use easily implement firebase authentication system into our website. We can use react firebase hooks to make integration with firebase. We can implement email password, GitHub, google, Facebook, and many other authentication system by using firebase.
+                    <p>Firebase authentication system is trusted and most popular authentication system. We can use easily implement firebase authentication system into our website. We can use react firebase hooks to make integration with firebase. We can implement email password, GitHub, google, Facebook, and many other authentication system by using firebase. Okta, OneLogin, Auth0 is also populer authentication system.
                     </p>
                 </div>
                 <div className='blog mt-4 bg-light'>

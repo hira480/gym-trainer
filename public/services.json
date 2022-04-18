@@ -3,42 +3,42 @@
         "id": 1,
         "name": "STANDING BARBELL",
         "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/42whpKW/couple-standing.jpg"
+        "description": "Hola a Barbell with an overhand grip in a standing position. Your feet should be shoulder-width apart and i will train properly",
+        "img": "https://i.ibb.co/MVnPgG9/gym1.jpg"
     },
     {
         "id": 2,
         "name": "BARBELL OVERHEAD PRESS",
         "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/kKQy9ts/single-2.png"
+        "description": "Press the barbell by keeping it positioned in the meat of the hands and driving it directly overhead. I will supervise you with safety",
+        "img": "https://i.ibb.co/ZG8KgXC/gym2.jpg"
     },
     {
         "id": 3,
         "name": "SHOULDER WORKOUT",
         "price": "150",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/whdy5d0/couple-trn-2.png"
+        "description": "Set your feet shoulder-width apart. Let the dumbbells hang straight down from shoulders, your palms facing each other, with arms slightly bent.",
+        "img": "https://i.ibb.co/9vp42fz/gym3.png"
     },
     {
         "id": 4,
         "name": "STICK TO THE BASIC",
         "price": "180",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/b3cGpMz/couple-training-together-gym.png"
+        "description": "What you need is to stick to the basic principles of preparation, success will follow. Start with planning",
+        "img": "https://i.ibb.co/3zqfjG2/gym4.jpg"
     },
     {
         "id": 5,
         "name": "INTERMEDIATE WORKOUT",
         "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/rp28Shj/gym-girl.jpg"
+        "description": "Shock your muscle into growth by rotating this workout with your current routine. I will make your routine and train you properly.",
+        "img": "https://i.ibb.co/jwQQTg2/gym5.jpg"
     },
     {
         "id": 6,
         "name": "PERSONAL TRAINING",
         "price": "300",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-        "img": "https://i.ibb.co/C7B1NMp/alone.png"
+        "img": "https://i.ibb.co/RDyhZrd/gym6.jpg"
     }
 ]
