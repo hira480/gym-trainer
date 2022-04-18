@@ -2,8 +2,8 @@ import React from 'react';
 
 const Checkout = () => {
     return (
-        <div>
-            <h2>Please Confirm Your Appoinment</h2>
+        <div className='container'>
+            <h2 className='text-center mt-3 text-success'>Your Appoinment is Comfirmed</h2>
         </div>
     );
 };
