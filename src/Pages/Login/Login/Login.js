@@ -3,7 +3,7 @@ import './Login.css';
 import { Button, Form } from 'react-bootstrap';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
-import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Login = () => {
@@ -20,6 +20,8 @@ const Login = () => {
         loading,
         error,
     ] = useSignInWithEmailAndPassword(auth);
+
+    const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
 
     if (user) {
         navigate(from, { replace: true });
@@ -41,6 +43,12 @@ const Login = () => {
         navigate('/register');
     }
 
+    const resetPassword = async () => {
+        const email = emailRef.current.value;
+        await sendPasswordResetEmail(email);
+        alert('Sent email');
+    }
+
     return (
         <div>
             <h2 className='text-center text-primary pt-3'>Please Login</h2>
@@ -55,15 +63,13 @@ const Login = () => {
                         <Form.Label>Password</Form.Label>
                         <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                     </Form.Group>
-                    <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                        <Form.Check type="checkbox" label="Check me out" />
-                    </Form.Group>
-                    <Button className='w-100' variant="primary" type="submit">
+                    <Button className='w-100 mb-2' variant="primary" type="submit">
                         Login
                     </Button>
                 </Form>
                 {errorText}
                 <p>New to my Website? <Link to='/register' className='text-primary pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
+                <p>Forget Password? <Link to='/register' className='text-primary pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</Link></p>
                 <SocialLogin></SocialLogin>
             </div>
         </div>
