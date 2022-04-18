@@ -1,0 +1,13 @@
+.blog {
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.blog h4 {
+    color: #2C3E50;
+}
+
+.blog p {
+    font-size: 17px;
+}
