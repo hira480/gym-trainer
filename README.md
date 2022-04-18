@@ -39,4 +39,4 @@ I made this website for a professional gym trainer we provide some services to h
 * Login 
     * Login ang Registration added and toggle between them
 
-* Also make a protected route where user can't go without login
+* Also make a protected route where user can't go without login.
